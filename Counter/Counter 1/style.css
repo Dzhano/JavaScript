@@ -1,0 +1,25 @@
+#Counter{
+    display: block;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 5em;
+    outline-width: 0em;
+}
+
+#Buttons{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    padding: 10px, 20px;
+    font-size: 1.5em;
+    color: rgb(99, 99, 214);
+    background-color: rgb(24, 29, 35);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.button.hover{
+    background-color: rgb(53, 64, 75);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Random password generator</h1>
+
+        <input type="number" id="length">
+        <label for="length">Password length</label><br>
+
+        <input type="checkbox" id="includeLowercase" name="unit">
+        <label for="includeLowercase">Include lowercase</label><br>
+
+        <input type="checkbox" id="includeUppercase" name="unit">
+        <label for="includeUppercase">Include Uppercase</label><br>
+
+        <input type="checkbox" id="includeNumbers" name="unit">
+        <label for="includeNumbers">Include numbers</label><br>
+
+        <input type="checkbox" id="includeSymbols" name="unit">
+        <label for="includeSymbols">Include symbols</label><br>
+
+        <button id="Generate" onclick="convert(event)">Generate</button>
+
+        <p id="Result"></p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
